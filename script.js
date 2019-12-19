@@ -1,5 +1,5 @@
 var question = "What is FairChild Semiconductor?"
-var answers = ['Red', 'Green', 'Blue', 'Yellow'];
+var answers = ['Small, Easily Portable Device', 'Electric Device that Switches/Amplifies Signals and Power', 'A Company that is A Branch of A Higher Industry', 'Something That is Put in A Computer'];
 var answerButtons = document.getElementsByClassName("quizButton");
 var correct = 3;
 
@@ -22,7 +22,7 @@ for(var spot=0; spot<answers.length; spot++)
 document.getElementById('question').innerHTML = question;
 
 function changeColor() {
-    document.getElementById('Question1').setAttribute('style','background-color:rgb(210,50,35);')
+    document.getElementById('question').setAttribute('style','background-color:rgb(210,50,35);')
 }
 
 function disableAll() {
